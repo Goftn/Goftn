@@ -1,0 +1,14 @@
+ #include <stdio.h>
+int main()
+{
+    float f=0.0f;
+    for(i=0;i<10;i++)
+    {
+        f=f+0.1;
+    }
+    if (f== 1.0f)
+    {
+    printf("vysledek je %6.4f",f);
+    }
+    return 0;
+}
